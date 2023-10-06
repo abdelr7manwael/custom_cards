@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+section{
+    padding: 50px 0;
+}
+
+.item{
+    width: 32%;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.item.one{
+    background-image: url('img/unsplash-photo-1.jpg');
+}
+
+.item.two{
+    background-image: url('img/unsplash-photo-2.jpg');
+}
+
+.item.three{
+    background-image: url('img/unsplash-photo-3.jpg');
+}
